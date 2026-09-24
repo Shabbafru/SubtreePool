@@ -1,0 +1,5 @@
+﻿.vscode/
+/DataGenerator/bin/
+/DataGenerator/obj/
+/ExperimentRunner/bin/
+/ExperimentRunner/obj/

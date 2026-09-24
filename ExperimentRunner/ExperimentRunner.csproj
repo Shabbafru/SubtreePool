@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>ExperimentRunner</AssemblyTitle>
+    <Version>1.0.0</Version>
+  </PropertyGroup>  
+  <ItemGroup>
+    <Reference Include="HEAL.Attic">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>../Headless-Heuristiclab/bin/HEAL.Attic.dll</HintPath>
+    </Reference>
+    <Reference Include="ALGLIB-3.17.0">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>../Headless-Heuristiclab/bin/ALGLIB-3.17.0.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Algorithms.GeneticAlgorithm-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Algorithms.GeneticAlgorithm-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Analysis-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Analysis-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Collections-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Collections-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Common-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Common-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Common.Resources-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Common.Resources-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Core-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Core-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Selection-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Selection-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Data-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Data-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Encodings.SymbolicExpressionTreeEncoding-3.4">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Encodings.SymbolicExpressionTreeEncoding-3.4.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Operators-3.3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Operators-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Optimization-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Optimization-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.ParallelEngine-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.ParallelEngine-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Parameters-3.3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Parameters-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Problems.DataAnalysis-3.4">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Problems.DataAnalysis-3.4.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Problems.DataAnalysis.Symbolic-3.4">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Problems.DataAnalysis.Symbolic-3.4.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Problems.DataAnalysis.Symbolic.Regression-3.4">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Problems.DataAnalysis.Symbolic.Regression-3.4.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Problems.Instances-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Problems.Instances-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Problems.Instances.DataAnalysis-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Problems.Instances.DataAnalysis-3.3.dll</HintPath>
+    </Reference>
+    <Reference Include="HeuristicLab.Random-3.3">
+      <HintPath>../Headless-Heuristiclab/bin/HeuristicLab.Random-3.3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

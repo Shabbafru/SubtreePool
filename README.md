@@ -1,5 +1,5 @@
 # Description
-Source code and datasets for the paper "Multi-Source Subtree-Pool Transfer Learning for Symbolic Regression".
+Source code and datasets for multi-Source subtree-pool transfer learning for symbolic regression.
 
 ## Building the code
 - Requirements: .NET 9 SDK
@@ -27,8 +27,8 @@ Source code and datasets for the paper "Multi-Source Subtree-Pool Transfer Learn
 ## Datasets
 The folder datasets_diversity contains two subfolders for datasets with a similarity of 0.3 and 0.8. 
 This is used to compare how well the method performs on different dataset similarities. 
-The folder datasets_source_nr contains 200 instances of the 0.3 similarity domain. 
-It is used to show improvements when used more datasets as source instances. 
+The folder datasets_source_nr contains 200 instances of the 0.3 similarity domain for showing the improvements
+when more datasets are used as source instances. 
 
 
 
